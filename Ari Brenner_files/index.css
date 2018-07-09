@@ -103,7 +103,11 @@ section.nav-section .content {
 
 .top a {
   text-decoration: underline;
-  color: #666;
+  color: blue;
+}
+
+.top a:visited {
+  color: purple;
 }
 
 .top img {
@@ -124,13 +128,8 @@ section.nav-section .content {
 }
 
 .top p {
-  padding: 20px;
-  padding: 20px 50px 0px 20px;
+  padding: 20px 65px 0px 20px;
 }
-
-
-
-
 
 .skills .icons  {
   margin: auto;
@@ -156,8 +155,6 @@ section.nav-section .content {
   margin: 15px 10px;
   font-weight: bold;
 }
-
-
 
 .project {
   background: #ddd;
@@ -223,9 +220,6 @@ section.nav-section .content {
   font-family: "Courier New", Courier, monospace;
 }
 
-
-
-
 .contact {
   font-size: 18px;
 }
@@ -248,8 +242,6 @@ section.nav-section .content {
   text-align: center;
   font-size: 24px;
 }
-
-
 
 .project::after,
 .group::after {

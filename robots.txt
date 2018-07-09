@@ -1,0 +1,4 @@
+# There are only three things I'm afraid of: spiders, and off-by-one errors
+
+User-agent: *
+Disallow: /
