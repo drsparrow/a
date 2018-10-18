@@ -1,225 +1,42 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <script src="./Ari Brenner_files/jquery.min.js"></script>
-    <script src="./Ari Brenner_files/scroll.js"></script>
-    <script src="./Ari Brenner_files/arihost.js"></script>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
     <link rel="shortcut icon" href="http://aribrenner.com/media/images/icon.png">
-    <link rel="stylesheet" href="./Ari Brenner_files/index.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./heads.css">
 
     <title>Ari Brenner</title>
 
     <meta property="og:site_name" content="aribrenner.com">
     <meta property="og:title" content="Ari Brenner">
-    <meta property="og:description" content="Software engineer and tutor living in NYC">
+    <meta property="og:description" content="Software engineer at Google">
     <meta property="og:image" content="http://aribrenner.com/media/images/ari0.jpg">
+
+    <script src="./vendor/jquery.min.js"></script>
+    <script src="./carter.js"></script>
   </head>
 
-  <body style="">
+  <body>
+    hi there
 
-    <header>
-      <div class="content group">
-        <h2><a href="http://aribrenner.com/#">Ari Brenner</a></h2>
-
-        <div id="nav-links">
-          <a href="http://aribrenner.com/#top" class="selected">Me</a>
-          <a href="http://aribrenner.com/#skills">Skills</a>
-          <a href="http://aribrenner.com/#projects">Projects</a>
-          <a href="http://aribrenner.com/#contact">Contact</a>
-        </div>
+    <div id="headface-heads"></div>
+    <div class="headface-heads-content">
+      <img class="follower" src="js-image/cart0.png" width="380px" height="380px">
+      <img class="follower" src="js-image/cart0.png" width='280px' height="280px">
+      <img class="follower" src="js-image/cart0.png" width='180px' height="180px">
+      <img class="follower" src="js-image/cart0.png" width='80px' height="80px">
+    
+      <span class="js-addition headface-addition headface-control">More Carters</span>
+    
+      <span class='js-change headface-change headface-control'>Change Carters</span>
+      <span class='js-flop headface-flop headface-control'>Flip Carters</span>
+    
+    
+      <div class="center-text">
+        <input type="range" name="name" min="2.5" max='5' value='3' class='js-multiplier headface-range-multiplier' step='.1'>
       </div>
-    </header>
-    <div id="filler"></div>
-
-
-    <span class="anchor" id="top"></span>
-    <section class="nav-section top">
-      <div class="content group">
-        <img src="./Ari Brenner_files/ari0.jpg">
-        <h1>Hi.  I'm <strong>Ari Brenner</strong></h1>
-        <h2>
-          I'm a software engineer and teacher.
-        </h2>
-
-        <p>
-          I am currently an <a href="https://generalassemb.ly/instructors/ari-brenner/13888">instructor for General Assembly</a> teaching a <a href="https://generalassemb.ly/education/web-development-immersive">Web Development Immersive</a> course for <a href="https://www.fastcompany.com/40576156/most-creative-people-2018-nikki-katz-disney">Walt Disney employees</a>.
-
-          Prior to that I worked as a software engineer at <a href="https://www.palantir.com/">Palantir</a> and <a href="https://stellaservice.com/">StellaService</a>.
-
-          I graduated from Connecticut College as a Computer Science and Mathematics double major.
-
-          I like to ride my bike, write code, and <a href="https://zapata.com/flyboard/flyboards">flyboard</a>.
-        </p>
-
-      </div>
-
-    </section>
-
-    <span class="anchor" id="skills"></span>
-    <section class="nav-section skills">
-      <div class="content group">
-        <div class="section-title">Technologies and skills</div>
-        <div class="icons group">
-
-          <figure>
-            <img src="./Ari Brenner_files/ruby.png">
-            Ruby
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/rails.png">
-            Rails
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/python.png">
-            Python
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/javascript.png">
-            JavaScript
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/css.png">
-            CSS
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/html.png">
-            HTML5
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/react.png">
-            React
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/jquery.png">
-            jQuery
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/postgresql.png">
-            PostgreSQL
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/git.png">
-            Git
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/elm.png">
-            Elm
-          </figure>
-          <figure>
-            <img src="./Ari Brenner_files/matlab.png">
-            Matlab
-          </figure>
-        </div>
-
-      </div>
-
-    </section>
-
-    <span class="anchor" id="projects"></span>
-    <section class="nav-section projects">
-      <div class="content group">
-        <div class="section-title">Some Projects</div>
-
-
-        <div class="project">
-          <a href="http://ari.host/">
-            <img src="./Ari Brenner_files/arihost.png" alt="ari.host" class="project-icon">
-            <h2>Ari.host</h2>
-          </a>
-
-          <h3>A fun and easy URL shortener</h3>
-
-          <ul>
-            <li>Shorten any URL on the web by prefixing it with <span class="code">ari.host/</span></li>
-            <li>Create transparent Tracking Pixels</li>
-            <li>Make a free account</li>
-            <li>Monitor shortened URLs and tracking pixel hits through web app and API</li>
-          </ul>
-        </div>
-
-
-        <div class="project">
-          <a href="http://friendheads.com/">
-            <img src="./Ari Brenner_files/friendheads.jpg" alt="friendheads" class="project-icon">
-            <h2>Friendheads</h2>
-          </a>
-
-          <h3>For your friends, and their heads</h3>
-
-          <ul>
-            <li>Upload photos of heads</li>
-            <li>Add hands, feet, hats, and other customizations</li>
-            <li>Click to remove and create new heads, keyboard controls to move and scale heads</li>
-            <li>Embed custom friendheads into any webpage with simple <span class="code">script</span> tag</li>
-          </ul>
-        </div>
-
-        <div class="project">
-          <a href="http://aribrenner.com/findstacey">
-            <img src="./Ari Brenner_files/findstacey.png" class="project-icon">
-            <h2>Find Stacey</h2>
-          </a>
-
-          <h3>A Flash game for the strange</h3>
-
-          <ul>
-            <li>Search through the house in a quest to find Stacey</li>
-            <li>Pick up items and keys to help you along</li>
-            <li>Stacey's family can help, but only at a cost...</li>
-            <li>Be sure to find Stacey before she finds you</li>
-          </ul>
-
-        </div>
-
-        <div class="project">
-          <a href="http://faceland.xyz/">
-            <img src="./Ari Brenner_files/faceland.png" alt="faceland" class="project-icon">
-            <h2>Faceland</h2>
-          </a>
-
-          <h3>A clone of Facebook built with Rails and Backbone.</h3>
-
-          <ul>
-            <li>Create a new account, sign in as a guest, or sign in with Google</li>
-            <li>Add and send friend requests, write and comment on posts statuses</li>
-            <li>Add new profile pictures and cover photos</li>
-            <li>Get notifcations from friend requests, posts, and comments</li>
-          </ul>
-        </div>
-
-
-      </div>
-    </section>
-
-    <span class="anchor" id="contact"></span>
-    <section class="nav-section contact">
-      <div class="content group">
-        <div class="section-title">Get in touch</div>
-
-
-        <p>
-          Find me on GitHub and LinkedIn
-        </p>
-
-        <div class="links">
-          <a href="https://github.com/aribrenner"><img src="./Ari Brenner_files/github.png"></a>
-          <a href="https://www.linkedin.com/pub/ari-brenner/a9/737/251"><img src="./Ari Brenner_files/linkedin.png"></a>
-        </div>
-
-
-        <p>
-          Email me at aribrenner@gmail.com
-        </p>
-
-        <div class="links">
-          <a href="mailto:aribrenner@gmail.com"><img src="./Ari Brenner_files/email.png"></a>
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-
-
-</body></html>
+    </div>
+  </body>
+</html>
