@@ -4,7 +4,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 
     <link rel="shortcut icon" href="http://aribrenner.com/media/images/icon.png">
-    <link rel="stylesheet" href="./main.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/night-mode.css">
+    <link rel="stylesheet" href="./css/contact.css">
 
     <title>Ari Brenner</title>
 
@@ -16,13 +19,17 @@
     <script src="vendor/jquery.min.js"></script>
 
     <script src="http://www.friendheads.com/js/embed.js"></script>
-    <script src="./friendheads.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="./js/friendheads.js"></script>
+    <script src="./js/contact.js"></script>
+    <script src="./js/night-mode.js"></script>
 
   </head>
 
   <body>
 
-    <img src="./media/images/ari0.jpg" alt="Ari Brenner" width="255px">
+    <img src="./media/images/ari0.jpg" alt="Ari Brenner" class="ari-face">
 
     <p class='big-text'>
       Hello. I'm <strong>Ari</strong>
@@ -31,53 +38,67 @@
     <p class='small-text'>
       I am a software engineer at <strong>Google</strong>.
     </p>
-    
+
+    <p class='small-text'>
+      I live in <b>New York City</b>.
+    </p>
+
     <p class='small-text'>
       I graduated <strong>Connecticut College</strong> as a Computer Science and Mathematics double major.
-    </p>    
-    
+    </p>
+
     <p class='small-text'>
       I like to ride my <strong>bike</strong> and eat <strong>Hawaiian pizza</strong>.
     </p>
 
     <br><br>
 
-    I made some fun things for you to look at:
+    I made some <b>fun things</b> for you to look at:
 
     <ul>
       <li>
         <strong>
-          <a href="http://www.friendheads.com/ari" target="_blank">Friendheads</a>
+          <a href="http://www.friendheads.com" target="_blank">Friendheads</a>
         </strong>
-        
+
         <ul>
           <li>These are the heads you see floating around</li>
           <li>You can make your own head.  And send it to your friends</li>
         </ul>
       </li>
-      
+
       <li>
         <strong>
           <a href="http://www.aribrenner.com/findstacey/" target="_blank">Find Stacey</a>
         </strong>
-        
+
         <ul>
           <li>This is a ~spooky~ Flash game.</li>
           <li><i>Remember Flash??</i></li>
         </ul>
       </li>
-      
+
       <li>
         <strong>
           <a href="http://www.aribrenner.com/" target="_blank">My Website</a>
         </strong>
-        
+
         <ul>
           <li>This is the site you are currently on</li>
           <li><i>Recursion</i> !!</li>
         </ul>
       </li>
-    
+
     </ul>
+
+    <br><br>
+
+    <div class="contact-me-container">
+      <div class="contact-me">
+        <a class='contact-me-link' href='#'>contact me</a>
+      </div>
+    </div>
+
+    <a href="#" class="toggle-night-mode">Night mode</a>
   </body>
 </html>

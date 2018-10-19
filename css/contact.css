@@ -1,0 +1,18 @@
+.contact-me {
+  position: absolute;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+}
+
+.contact-me-container {
+  position: relative;
+  top: -20px;
+}
+
+.contact-me-container .contact-me-link {
+  background: white;
+  font-size: 20px;
+  z-index: 1;
+  font-weight: bold;
+}

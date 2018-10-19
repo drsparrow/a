@@ -1,0 +1,15 @@
+.night-mode {
+  background: black;
+  color: black !important;
+}
+
+.night-mode, .night-mode * {
+  color: black !important;
+  background: black;
+}
+
+.toggle-night-mode {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
