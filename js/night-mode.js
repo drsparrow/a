@@ -1,5 +1,5 @@
 $(function () {
     $('.toggle-night-mode').click(function () {
-        $('body').toggleClass('night-mode')
-    })
+        $('body').toggleClass('night-mode');
+    });
 });
