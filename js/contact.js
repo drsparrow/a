@@ -10,16 +10,14 @@ $(function () {
             });
             setTimeout(moveContainer);
         }
+        return false;
     };
 
     $(document).mousemove(moveContainer);
 
     var email = atob("YXJpYnJlbm5lckBnbWFpbC5jb20=");
 
-    $(".contact-me-link").click(function () {
-        alert("Email me: " + email);
-        return false;
-    });
+    $(".contact-me-link").click(moveContainer);
 
     var log = function (message, style) {
         setTimeout(console.log.bind(console, "\n%c " + message, style));
