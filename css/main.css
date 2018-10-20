@@ -41,3 +41,11 @@ body {
   content: '';
 }
 
+a {
+  font-weight: bold;
+}
+
+.not-visited {
+  color: blue;
+}
+
