@@ -2,10 +2,11 @@ $(function () {
 
     var ariHeads = new Friendheads('ari');
 
-    ariHeads.add(3);
+    ariHeads.add(2);
 
-    $('.ari-face').click(function () {
+    $('.more-ari, .ari-face').click(function () {
         ariHeads.add();
+        return false;
     });
 
 });

@@ -8,11 +8,10 @@
 .contact-me-container {
   position: relative;
   top: -20px;
+  left: -10px;
 }
 
 .contact-me-container .contact-me-link {
-  /* background: white; */
-  font-size: 20px;
   z-index: 1;
   font-weight: bold;
 }

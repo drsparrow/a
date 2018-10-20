@@ -21,5 +21,10 @@ $(function () {
         return false;
     });
 
-    console.log("%c " + email, "color: blue; font-size: 30px;");
+    var log = function (message, style) {
+        setTimeout(console.log.bind(console, "\n%c " + message, style));
+    };
+
+    log('Email me:', "font-size: 18px; font-weight: bold;");
+    log(email, "color: green; font-size: 30px; font-weight: bold;");
 });
