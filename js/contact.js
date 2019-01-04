@@ -13,13 +13,11 @@ $(function () {
         return false;
     };
 
-    // $(document).mousemove(moveContainer);
+    $(document).mousemove(moveContainer);
 
     var email = atob("YXJpYnJlbm5lckBnbWFpbC5jb20=");
 
-    var $contant = $(".contact-me-link");
-    $contant.attr('href', 'mailto:' + email);
-    $contant.text(email);
+    $(".contact-me-link").click(moveContainer);
 
     var log = function (message, style) {
         setTimeout(console.log.bind(console, "\n%c " + message, style));
